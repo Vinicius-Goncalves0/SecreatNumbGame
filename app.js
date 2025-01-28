@@ -4,7 +4,11 @@ import { UI } from './viewer/UI.js';
 
 // Uso das classes
 const minNumbS = 1;
+<<<<<<< HEAD
 const maxNumbS = 10;
+=======
+const maxNumbS = 100;
+>>>>>>> parent of e22b90e (Change nº 100 to 1000)
 const game = new Game(minNumbS, maxNumbS);
 UI.gameStartupText(minNumbS, maxNumbS);
 
