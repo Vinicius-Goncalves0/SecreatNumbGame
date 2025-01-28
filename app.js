@@ -4,7 +4,7 @@ import { UI } from './viewer/UI.js';
 
 // Uso das classes
 const minNumbS = 1;
-const maxNumbS = 100;
+const maxNumbS = 1000;
 const game = new Game(minNumbS, maxNumbS);
 UI.gameStartupText(minNumbS, maxNumbS);
 
